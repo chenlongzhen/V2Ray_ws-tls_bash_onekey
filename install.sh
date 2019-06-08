@@ -79,7 +79,7 @@ EOF
 
 }
 is_root(){
-    if [ `id -u` == 0 ]
+    if [ `id -u` == 0 ];
         then echo -e "${OK} ${GreenBG} now user root，begin to install ${Font} "
         sleep 3
     else
